@@ -17,6 +17,9 @@ h1 {
 .underline {
     border-bottom: 1px solid #008751;
 }
+.thick-underline {
+    border-bottom: 5px solid #DF4338;
+}
 p {
     font-size: 20px;
     line-height: 36px;
@@ -75,6 +78,5 @@ p {
 }
 .btn {
     height: 44px;
-    border-bottom: 5px solid #DF4338;
     padding: 10px;
 }
