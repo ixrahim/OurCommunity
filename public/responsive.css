@@ -13,9 +13,17 @@
     }
     .banner-button {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .push-right {
+        margin-right: 0px;
+        margin: 15px 0;
     }
     .btn {
         height: auto;
+        text-align: center;
+        border-radius: 5px;
     }
     .content {
         flex-direction: column-reverse;
