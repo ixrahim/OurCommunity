@@ -11,10 +11,25 @@
     h1 {
         font-size: 46px;
     }
+    .banner-button {
+        width: 100%;
+    }
+    .btn {
+        height: auto;
+    }
     .content {
         flex-direction: column-reverse;
         flex-wrap: wrap;
         top: 20px;
+    }
+    
+    .content-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-footer {
+        top: 50px;
     }
     .h1 {
         text-align: center;
@@ -24,8 +39,5 @@
         width: 100%;
         text-align: center;
     }
-    .content-right {
-        display: flex;
-        justify-content: center;
-    }
+    .
 }

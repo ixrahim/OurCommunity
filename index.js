@@ -8,8 +8,8 @@ require('dotenv').config({path: '.env'});
 
 const app = express();
 const connection = mongoose.connect(
-    //'mongodb://127.0.0.1:27017/admin',
-    'mongodb+srv://bash:abisola14@cluster0.dyg9b.mongodb.net/cluster0',
+    'mongodb://127.0.0.1:27017/admin',
+    //'mongodb+srv://bash:abisola14@cluster0.dyg9b.mongodb.net/cluster0',
     {
         useMongoCLient: true,
         useNewUrlParser: true,
