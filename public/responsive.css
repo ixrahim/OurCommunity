@@ -11,6 +11,9 @@
     h1 {
         font-size: 46px;
     }
+    .banner-background {
+        height: 110vh;
+    }
     .banner-button {
         width: 100%;
         display: flex;
@@ -23,7 +26,7 @@
     .btn {
         height: auto;
         text-align: center;
-        border-radius: 5px;
+        border-radius: 0px;
     }
     .content {
         flex-direction: column-reverse;
@@ -46,6 +49,7 @@
     .p {
         width: 100%;
         text-align: center;
+        
     }
-    .
+    
 }
