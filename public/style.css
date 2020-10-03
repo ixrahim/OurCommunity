@@ -15,7 +15,7 @@ h1 {
     color: #ffffff;
 }
 .underline {
-    border-bottom: 1px solid #008751;
+    color: #008751;
 }
 .thick-underline {
     border-bottom: 5px solid #DF4338;
@@ -40,7 +40,7 @@ p {
     display: flex;
     position: relative;
     top: 20px;
-    justify-content: center;
+    justify-content: left;
 }
 .banner-background {
     background: black;
@@ -53,7 +53,7 @@ p {
 .content {
     display: flex;
     position: relative;
-    top: 200px;
+    top: 170px;
 }
 .content-left {
     width: 100%;
@@ -62,7 +62,7 @@ p {
     display: flex;
     position: relative;
     top: 300px;
-    justify-content: center;
+    justify-content: left;
 }
 .banner-text {
     color: white;
@@ -73,10 +73,10 @@ p {
 }
 .banner-button {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     width: 80%;
 }
 .btn {
     height: 44px;
-    padding: 10px;
+    padding: 10px 0;
 }

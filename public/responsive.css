@@ -11,6 +11,9 @@
     h1 {
         font-size: 46px;
     }
+    .logo {
+        justify-content: center;
+    }
     .banner-background {
         height: 115vh;
     }
@@ -41,6 +44,7 @@
 
     .content-footer {
         top: 50px;
+        justify-content: center;
     }
     .h1 {
         text-align: center;
