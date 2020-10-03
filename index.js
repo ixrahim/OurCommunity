@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const hbs = require('hbs');
 const mongoose = require('mongoose');
+const communityRoute = require('./api/routes/community')
 require('dotenv').config({path: '.env'});
 
 const app = express();
@@ -60,6 +61,7 @@ app.use("/views", express.static(path.join(__dirname, 'views')))
 app.get('/', (req, res) => {
     res.render('index')
 });
+app.use('/findMyCommunity', communityRoute)
 
 // handle errors
 app.use((req, res, next) => {
